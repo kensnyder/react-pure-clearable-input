@@ -1,0 +1,43 @@
+.ClearableInput {
+	position: relative;
+	display: inline-block;
+	border: 1px solid #aaa;
+	height: 32px;
+	border-radius: 4px;
+}
+.ClearableInput .overlay {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+}
+.ClearableInput .clear {
+	top: 8px;
+	right: 7px;
+	background-color: #bbb;
+	border-radius: 8px;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+.ClearableInput input {
+	margin-right: 24px;
+	border: none;
+	background: none transparent;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	padding-left: 8px;
+}
+.ClearableInput input:focus {
+	outline: 0;
+}
+.ClearableInput .magnifier {
+	top: 9px;
+	right: 10px;
+	filter: saturate(0);
+	font-size: 16px;
+}
